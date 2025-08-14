@@ -64,7 +64,7 @@ python etl_connector.py
 **Collection**: COLLECTION_NAME (default: alienvault_raw)
 
 Sample Document:
-```
+```json
 {
   "id": "12345",
   "name": "Suspicious IP Activity",
@@ -78,3 +78,4 @@ Sample Document:
   "_source": "alienvault_otx_pulses_subscribed",
   "_page": 1
 }
+```
