@@ -17,16 +17,11 @@ The pipeline:
 **Base URL:**  
 https://otx.alienvault.com/api/v1
 
-markdown
-Copy
-Edit
+
 
 **Endpoint Used:**  
 /pulses/subscribed
 
-markdown
-Copy
-Edit
 - **Method:** GET  
 - **Auth:** Requires API key in request header:  
 
@@ -60,8 +55,6 @@ DB_NAME=etl_database
 python etl_connector.py
 ```
 
-
-
 **MongoDB Output**
 
 **Database**: DB_NAME (default: etl_database)
@@ -69,7 +62,7 @@ python etl_connector.py
 **Collection**: COLLECTION_NAME (default: alienvault_raw)
 
 Sample Document:
-```
+```json
 {
   "id": "12345",
   "name": "Suspicious IP Activity",
